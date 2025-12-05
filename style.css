@@ -10,11 +10,25 @@ li {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-h2 {
+#summary {
+    color: aquamarine;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h2,
+.job-title {
     color: blue;
     font-size: 1.2em;
 }
 
-.job-title {
-    font-weight: bold;
+a[title] {
+    color: brown;
+}
+
+a:hover {
+    color: antiquewhite
+}
+
+p::first-line {
+    font-family: serif;
 }
