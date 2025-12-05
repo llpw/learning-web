@@ -1,34 +1,12 @@
-body {
-    font-family: 'Courier New', Courier, monospace;
-}
-
-h1,
-p,
-li {
-    color: red;
-    font-size: 1.5em;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-
-#summary {
-    color: aquamarine;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
-
-h2,
-.job-title {
+h1 {
     color: blue;
-    font-size: 1.2em;
 }
 
-a[title] {
-    color: brown;
+h2 {
+    color: white;
+    background-color: blue;
 }
 
-a:hover {
-    color: antiquewhite
-}
-
-p::first-line {
-    font-family: serif;
+span {
+    font-size: 200%;
 }
